@@ -1,0 +1,100 @@
+.signup-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  
+  }
+  
+  .top-image {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    margin-top: 12px;
+ 
+    
+  }
+  
+
+  
+  .signup-content h2 {
+    margin-bottom: 20px; /* Adjust margin-bottom as needed */
+  }
+  
+  .signup-content form div {
+    margin-bottom: 20px; /* Adjust margin-bottom as needed */
+  }
+  
+  .signup-content label {
+    display: block;
+    margin-bottom: 5px; /* Adjust margin-bottom as needed */
+  }
+  
+  .signup-content input
+{
+    width: 600px;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  .signup-content select{
+    width:100%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .signup-content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    padding: 24px;
+    background-color:#1da1f2;
+    color: white;
+    border: none;
+    
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  
+  .signup-content button:hover {
+    background-color: #1da1f2;
+  }
+  
+
+  .fields{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+  }
+
+  h5{
+    font-size: 16px;
+    font-weight: bold;
+  }
+.content{
+    width:610px;
+    font-size: 16px;
+    font-weight: 400px;
+    color:#969696;
+}
+
+  .month{
+    width: 300px;
+    
+  }
+
+
+  .year,.date{
+width: 130px;
+
+  }
+
+
+  select{
+    color:#969696;
+  }
